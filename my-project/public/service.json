@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/SXyZ3dCm/Cardiovascular.jpg",
+        "icon": "/icons/heart.svg",
+        "image_url": "https://i.ibb.co.com/SXyZ3dCm/Cardiovascular.jpg",
+        "disease_title": "Cardiovascular Center",
+        "details": "The Cardiovascular Center is dedicated to the prevention, diagnosis, and treatment of heart and blood vessel diseases. Our center combines advanced medical technology with a multidisciplinary team of cardiologists, surgeons, nurses, and rehabilitation specialists to deliver comprehensive cardiac care. We focus on conditions such as coronary artery disease, heart failure, arrhythmias, hypertension, and congenital heart disorders.\n\nPatients receive individualized care plans that begin with accurate diagnostics, including electrocardiograms, echocardiography, stress testing, and cardiac imaging. Based on these findings, our specialists recommend lifestyle modifications, medical therapy, or interventional procedures tailored to each patient’s condition. We emphasize early detection and preventive cardiology to reduce long-term risks and improve quality of life.\n\nIn addition to clinical treatment, the Cardiovascular Center prioritizes patient education and long-term management. Our rehabilitation programs support recovery after cardiac events through supervised exercise, nutritional counseling, and emotional support. By combining innovation, expertise, and compassionate care, the center aims to help patients maintain a healthy heart and lead active, fulfilling lives."
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/ch1HXTQP/childbirth.jpg",
+        "icon": "/icons/baby.svg",
+        "image_url": "https://i.ibb.co.com/ch1HXTQP/childbirth.jpg",
+        "disease_title": "Childbirth Center",
+        "details": "Comprehensive maternity care including prenatal, delivery, and postnatal support. Replace with full 300-word description as needed."
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/35Lw0zLT/cardiology.jpg",
+        "icon": "/icons/ecg.svg",
+        "image_url": "https://i.ibb.co.com/35Lw0zLT/cardiology.jpg",
+        "disease_title": "Cardiology",
+        "details": "Specialized diagnosis and treatment of heart-related conditions using modern diagnostic tools and personalized care plans."
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/wrpT3M5S/skin.jpg",
+        "icon": "/icons/skin.svg",
+        "image_url": "https://i.ibb.co.com/wrpT3M5S/skin.jpg",
+        "disease_title": "Skin Care",
+        "details": "Advanced dermatological treatments focusing on skin health, disease prevention, and cosmetic care."
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co.com/LDVMJvd7/laboratory.jpg",
+        "icon": "/icons/lab.svg",
+        "image_url": "https://i.ibb.co.com/LDVMJvd7/laboratory.jpg",
+        "disease_title": "Laboratory Service",
+        "details": "Accurate and timely diagnostic testing supporting clinical decisions across all medical departments."
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co.com/nqFtsxF8/mammography.jpg",
+        "icon": "/icons/xray.svg",
+        "image_url": "https://i.ibb.co.com/nqFtsxF8/mammography.jpg",
+        "disease_title": "Mammography",
+        "details": "Early detection and screening services for breast health using advanced imaging technology."
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co.com/Zpzdbh8V/dermatologist.jpg",
+        "icon": "/icons/dermatology.svg",
+        "image_url": "https://i.ibb.co.com/Zpzdbh8V/dermatologist.jpg",
+        "disease_title": "Dermatologist",
+        "details": "Expert care for skin, hair, and nail conditions with both medical and cosmetic treatment options."
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co.com/gZKDH6Fs/anaesthesiology.jpg",
+        "icon": "/icons/anesthesia.svg",
+        "image_url": "https://i.ibb.co.com/gZKDH6Fs/anaesthesiology.jpg",
+        "disease_title": "Anesthesiology Center",
+        "details": "Safe and effective anesthesia services ensuring patient comfort during surgical and diagnostic procedures."
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co.com/k6P5tQrP/paediatrics.jpg",
+        "icon": "/icons/pediatrics.svg",
+        "image_url": "https://i.ibb.co.com/k6P5tQrP/paediatrics.jpg",
+        "disease_title": "Pediatrics",
+        "details": "Comprehensive healthcare services for infants, children, and adolescents focusing on growth and development."
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co.com/TDRgqVmg/eye-care.jpg",
+        "icon": "/icons/eye.svg",
+        "image_url": "https://i.ibb.co.com/TDRgqVmg/eye-care.jpg",
+        "disease_title": "Eye Care",
+        "details": "Diagnosis and treatment of vision and eye-related conditions using modern ophthalmic techniques."
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co.com/pvrhjCs1/radiology.jpg",
+        "icon": "/icons/radiology.svg",
+        "image_url": "https://i.ibb.co.com/pvrhjCs1/radiology.jpg",
+        "disease_title": "Radiology Center",
+        "details": "Advanced imaging services including X-ray, CT, MRI, and ultrasound to support accurate diagnosis."
+    }
+]
