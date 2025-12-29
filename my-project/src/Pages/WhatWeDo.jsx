@@ -1,4 +1,4 @@
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import whatWeDo from '../assets/image/what-we-do.jpg'
 import Service from './Service';
 
@@ -17,11 +17,13 @@ const WhatWeDo = () => {
                 </div>
                 <div className='flex-1 space-y-4'>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima iusto praesentium maiores corporis perspiciatis itaque, molestiae dolorum eius ipsam quos fugit sunt consequuntur numquam omnis, doloremque labore quae rem!</p>
-                    <div>
+                    <div className='grid grid-cols-3 grid-rows-2 gap-6'>
                         {
                             data.map(service => <Service key={service.id} service={service}></Service>)
                         }
                     </div>
+
+                    <Link to={'/service'} className="btn btn-outline btn-accent hover:bg-[#32c1ce] hover:text-white">show more</Link>
                 </div>
             </div>
 
