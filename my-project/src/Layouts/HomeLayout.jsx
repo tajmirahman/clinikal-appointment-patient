@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Navber from '../Components/Navber';
 
 const HomeLayout = () => {
