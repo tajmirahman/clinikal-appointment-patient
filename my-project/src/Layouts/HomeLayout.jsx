@@ -3,7 +3,7 @@ import Navber from '../Components/Navber';
 
 const HomeLayout = () => {
     return (
-        <div>
+        <div className=''>
             {/* Navber section  */}
             <Navber></Navber>
         </div>
