@@ -1,10 +1,17 @@
-import { Link, useLoaderData } from 'react-router-dom';
-import whatWeDo from '../assets/image/what-we-do.jpg'
+import {  Link, useLoaderData } from 'react-router-dom';
+import whatWeDo from '../../assets/image/what-we-do.jpg'
 import Service from './Service';
+import { useState } from 'react';
+
 
 const WhatWeDo = () => {
     const data = useLoaderData();
-    console.log(data)
+    console.log(data.length)
+
+    const [showAll, setShowAll] = useState(false);
+
+    const visibaleData = showAll ? data : data.slice(0, 6);
+
     return (
         <div className='w-9/12 mx-auto min-h-screen my-10'>
             <h2 className='text-center my-10 text-3xl'>WHAT WE DO</h2>
@@ -19,11 +26,15 @@ const WhatWeDo = () => {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima iusto praesentium maiores corporis perspiciatis itaque, molestiae dolorum eius ipsam quos fugit sunt consequuntur numquam omnis, doloremque labore quae rem!</p>
                     <div className='grid grid-cols-3 grid-rows-2 gap-6'>
                         {
-                            data.map(service => <Service key={service.id} service={service}></Service>)
+                            visibaleData.map(service => <Service key={service.id} service={service}></Service>)
                         }
                     </div>
 
-                    <Link to={'/service'} className="btn btn-outline btn-accent hover:bg-[#32c1ce] hover:text-white">show more</Link>
+                    {
+                        data.length >6 
+                        &&
+                        <Link to={'/show-more'}  onClick={()=>{setShowAll}} className="btn btn-primary">show more</Link>
+                    }
                 </div>
             </div>
 
