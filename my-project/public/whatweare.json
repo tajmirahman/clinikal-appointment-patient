@@ -1,0 +1,29 @@
+{
+  "stats": [
+    {
+      "id": 1,
+      "count": 10,
+      "label": "Doctor(s)",
+      "icon": "FaUserMd"
+    },
+    {
+      "id": 2,
+      "count": 20,
+      "label": "Room(s)",
+      "icon": "FaAmbulance"
+    },
+    {
+      "id": 3,
+      "count": 23,
+      "label": "Year of Experience(s)",
+      "icon": "FaCalendarAlt"
+    },
+    {
+      "id": 4,
+      "count": 40,
+      "label": "Opening Hours Per Week",
+      "icon": "FaClock"
+    }
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, delectus placeat hic voluptatem fuga nemo ad fugit."
+}
