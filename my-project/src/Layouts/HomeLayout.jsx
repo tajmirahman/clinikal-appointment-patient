@@ -14,7 +14,7 @@ const HomeLayout = () => {
                     <Outlet></Outlet>
                 </aside>
 
-                <aside>
+                <aside className=''>
                     <WhoWeAre></WhoWeAre>
                 </aside>
 

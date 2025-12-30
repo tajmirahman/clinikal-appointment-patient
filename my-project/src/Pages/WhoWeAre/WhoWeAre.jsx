@@ -1,4 +1,4 @@
-
+import whatweDo from '../../assets/image/what-we-do.jpg'
 import { useEffect, useState } from 'react';
 import WhatWeAre from '../../assets/image/WhatWeAre.jpg'
 import SingleList from './SingleList';
@@ -22,22 +22,35 @@ const WhoWeAre = () => {
     console.log(clinicList)
 
     return (
-        <div className='w-9/12 mx-auto '>
-            <h2 className='text-center text-3xl'>What We Do</h2>
-            <div className='flex gap-3'>
-                <div>
-                    <div className='grid grid-cols-2'>
-                        {
-                            clinicList.map(list => <SingleList key={list.id} list={list}></SingleList>)
-                        }
+        <div
+            className="min-h-screen bg-contain bg-center"
+            style={{ backgroundImage: `url(${whatweDo})` }}
+        >
+            <div className="min-h-screen p-4 text-white bg-[#32a3ac]/60">
+                <h2 className="text-center text-3xl my-5">What We Do</h2>
+                <hr className="w-2/6 mx-auto border-t-2 border-black mt-2" />
+
+                <div className="flex gap-10 mt-10 w-9/12 mx-auto">
+                    <div className="space-y-5">
+                        <div className="grid grid-cols-2 gap-5">
+                            {clinicList.map(list => (
+                                <SingleList key={list.id} list={list} />
+                            ))}
+                        </div>
+                        <p className="text-sm text-justify">{description}</p>
                     </div>
-                    <p>{description}</p>
-                </div>
-                <div>
-                    <img src={WhatWeAre} alt="" />
+
+                    <figure className="w-full h-[350px]">
+                        <img
+                            className="w-full h-full border-2 border-blue-500 object-cover"
+                            src={WhatWeAre}
+                            alt=""
+                        />
+                    </figure>
                 </div>
             </div>
         </div>
+
     );
 };
 
