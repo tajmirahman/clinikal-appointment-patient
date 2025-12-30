@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import HomeLayout from "../Layouts/HomeLayout";
 import WhatWeDo from "../Pages/WhatWeDo/WhatWeDo";
+import ShowAllService from "../Pages/WhatWeDo/ShowAllService";
 
 
 const router = createBrowserRouter([
@@ -13,12 +14,13 @@ const router = createBrowserRouter([
                 element: <WhatWeDo></WhatWeDo>,
                 loader: () => fetch("/service.json")
 
-            },
-            {
-                path: '/what-we-do/:id',
-                element: <WhatWeDo></WhatWeDo>
             }
         ]
+    },
+    {
+        path: '/show-more',
+        element: <ShowAllService></ShowAllService>,
+        loader: () => fetch("/service.json")
     },
     {
         path: '/auth',
