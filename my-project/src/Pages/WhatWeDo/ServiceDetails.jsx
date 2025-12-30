@@ -23,12 +23,12 @@ const ServiceDetails = () => {
                 <Header></Header>
             </div>
 
-            <div className='grid grid-cols-12 w-9/12 mx-auto mt-10'>
+            <div className='grid grid-cols-12 w-9/12 mx-auto gap-5 mt-10'>
                 <aside className='col-span-9'>
                     <LeftSide showData={showData}></LeftSide>
                 </aside>
                 <aside className='col-span-3'>
-                    <RightSide></RightSide>
+                    <RightSide data={data}></RightSide>
                 </aside>
             </div>
 
