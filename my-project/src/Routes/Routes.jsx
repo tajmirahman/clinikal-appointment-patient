@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import HomeLayout from "../Layouts/HomeLayout";
 import WhatWeDo from "../Pages/WhatWeDo/WhatWeDo";
 import ShowAllService from "../Pages/WhatWeDo/ShowAllService";
+import ServiceDetails from "../Pages/WhatWeDo/ServiceDetails";
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
     {
         path: '/show-more',
         element: <ShowAllService></ShowAllService>,
+        loader: () => fetch("/service.json")
+    },
+    {
+        path: '/service-details/:id',
+        element: <ServiceDetails></ServiceDetails>,
         loader: () => fetch("/service.json")
     },
     {

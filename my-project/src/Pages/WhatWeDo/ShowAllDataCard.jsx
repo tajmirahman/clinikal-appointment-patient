@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const ShowAllDataCard = ({ showAllData }) => {
 
+    
 
     return (
         <div className="card border-1 overflow-hidden shadow relative mt-5">
@@ -37,7 +38,7 @@ const ShowAllDataCard = ({ showAllData }) => {
                 </p>
 
                 <div className="mt-3">
-                    <button className="text-sky-500 font-semibold hover:underline">read more</button>
+                    <Link to={`/service-details/${showAllData.id}`} className="text-sky-500 font-semibold hover:underline">read more</Link>
                 </div>
             </div>
         </div>
