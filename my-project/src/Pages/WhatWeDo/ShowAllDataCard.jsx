@@ -1,20 +1,20 @@
-import { FaWheelchair } from "react-icons/fa";
+
+import { Link } from "react-router-dom";
 
 const ShowAllDataCard = ({ showAllData }) => {
 
-    console.log(showAllData)
 
     return (
-        <div className="card bg-white shadow-xl rounded-2xl overflow-hidden relative">
+        <div className="card border-1 overflow-hidden shadow relative mt-5">
 
             {/* Image */}
             <figure>
                 <img
                     src={showAllData.image_url}
-                    
+
                     alt="Skin Care"
 
-                    className=" h-60 w-full object-cover transition-all duration-300 ease-in-out
+                    className=" h-60 w-full  object-cover transition-all duration-300 ease-in-out
                     hover:scale-125 hover:rotate-12"
                 />
             </figure>
@@ -32,14 +32,12 @@ const ShowAllDataCard = ({ showAllData }) => {
                     {showAllData.disease_title}
                 </h2>
 
-                <p className="text-gray-600 text-sm leading-relaxed">
-                    {showAllData.details}
+                <p className="text-gray-600 text-sm text-justify">
+                    {showAllData.details.length > 100 ? showAllData.details.slice(0, 200) + "..." : showAllData.details}
                 </p>
 
                 <div className="mt-3">
-                    <button className="text-primary font-semibold hover:underline">
-                        Read More
-                    </button>
+                    <button className="text-sky-500 font-semibold hover:underline">read more</button>
                 </div>
             </div>
         </div>

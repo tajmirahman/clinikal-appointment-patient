@@ -9,7 +9,7 @@ const HomeLayout = () => {
             {/* Navber section  */}
                 <Navber></Navber>
             
-                <main >
+                <main  className='bg-[#f5f9fc]'>
                     <Outlet></Outlet>
                 </main>
 
