@@ -1,57 +1,50 @@
 [
   {
     "id": 1,
-    "disease_title": "Cardiovascular Center",
-    "details": ""
+    "title": "Emergency Departments",
+    "description": "The emergency departments of our clinic operate 24 hours a day, although staffing levels may be varied in an attempt to reflect patient volume.",
+    "icon": "MdEmergency"
   },
   {
     "id": 2,
-    "disease_title": "Childbirth Center",
-    "details": "The Childbirth Center provides safe, compassionate, and comprehensive maternity care from pregnancy through delivery and postnatal recovery. Prenatal services include regular checkups, ultrasounds, laboratory testing, and personalized health guidance to support maternal and fetal well-being. Labor and delivery services respect each mother’s birth plan while ensuring medical readiness for all situations. Postnatal care focuses on maternal recovery, newborn health screening, breastfeeding support, and parental education. Emotional well-being and family-centered care are core priorities. By combining modern obstetric care with compassion and education, the Childbirth Center ensures a positive childbirth experience."
+    "title": "24 Hour Service",
+    "description": "24-7 (usually spoken \"twenty-four seven\") is facility that is available any time and, usually, every day in our clinic health care center. We look after you every time.",
+    "icon": "MdAccessTime"
   },
   {
     "id": 3,
-    "disease_title": "Cardiology",
-    "details": "The Cardiology Department specializes in diagnosing and treating heart-related conditions using modern diagnostic tools and personalized treatment plans. Services include ECG, echocardiography, stress testing, and long-term cardiac management. Preventive cardiology, lifestyle counseling, medication management, and patient education are key components of care. The department is dedicated to improving heart health and preventing complications."
+    "title": "Advanced Technology",
+    "description": "Medical technology encompasses a wide range of healthcare products and is used to diagnose, monitor or treat diseases or medical conditions affecting humans.",
+    "icon": "MdPrecisionManufacturing"
   },
   {
     "id": 4,
-    "disease_title": "Skin Care",
-    "details": "The Skin Care Department offers comprehensive dermatological services focused on maintaining healthy skin and treating a wide range of skin conditions. Services include diagnosis and treatment of acne, eczema, psoriasis, infections, allergic reactions, and chronic skin disorders. Advanced therapies and cosmetic dermatology procedures are also available. Patient education and preventive skin care are emphasized to ensure long-term skin health."
+    "title": "Ambulance",
+    "description": "An ambulance is a vehicle for transportation of sick or injured people to, from or between places of treatment for an illness or injury.",
+    "icon": "MdLocalHospital"
   },
   {
     "id": 5,
-    "disease_title": "Laboratory Service",
-    "details": "Laboratory Services provide accurate and timely diagnostic testing essential for effective medical decision-making. The laboratory is equipped with modern technology to perform blood tests, biochemical analysis, microbiology, and pathology services. Strict quality control ensures reliable results. Laboratory services support all clinical departments and play a critical role in disease diagnosis, monitoring, and prevention."
+    "title": "Primary Health Care",
+    "description": "Healthcare centres including clinics, doctor's offices, urgent care centers and ambulatory surgery centers serve as first point of contact with a health professional.",
+    "icon": "MdHealthAndSafety"
   },
   {
     "id": 6,
-    "disease_title": "Mammography",
-    "details": "Mammography services focus on early detection and screening of breast conditions using advanced imaging technology. Regular screenings help identify abnormalities at an early stage, improving treatment outcomes. The department ensures patient comfort, accurate imaging, and professional interpretation of results. Education on breast health and follow-up care is also provided."
+    "title": "Pharmacies and Drug Stores",
+    "description": "Pharmacies and drug stores comprise establishments engaged in retailing prescription or nonprescription drugs and medicines.",
+    "icon": "MdMedication"
   },
   {
     "id": 7,
-    "disease_title": "Dermatologist",
-    "details": "The Dermatology Department provides expert care for skin, hair, and nail conditions. Services include medical treatment for infections, autoimmune disorders, and chronic skin diseases, as well as cosmetic procedures. Personalized treatment plans and patient education ensure effective and long-lasting results."
+    "title": "Laboratory and Research",
+    "description": "A medical or clinical laboratory is a laboratory where tests are done on biological specimens in order to get information about the health of a patient.",
+    "icon": "MdScience"
   },
   {
     "id": 8,
-    "disease_title": "Anesthesiology Center",
-    "details": "The Anesthesiology Center delivers safe and effective anesthesia services for surgical and diagnostic procedures. Anesthesiologists assess patients preoperatively, manage anesthesia during procedures, and provide postoperative pain control. Patient safety, comfort, and continuous monitoring are top priorities."
-  },
-  {
-    "id": 9,
-    "disease_title": "Pediatrics",
-    "details": "The Pediatrics Department offers comprehensive healthcare services for infants, children, and adolescents. Care focuses on growth, development, disease prevention, and treatment of childhood illnesses. Vaccination programs, developmental screenings, and parental guidance are key services."
-  },
-  {
-    "id": 10,
-    "disease_title": "Eye Care",
-    "details": "Eye Care services include diagnosis and treatment of vision and eye-related conditions. Comprehensive eye exams, corrective vision services, and management of eye diseases are provided using modern ophthalmic technology. Patient education on eye health and preventive care is emphasized."
-  },
-  {
-    "id": 11,
-    "disease_title": "Radiology Center",
-    "details": "The Radiology Center provides advanced imaging services such as X-ray, CT, MRI, and ultrasound. These imaging techniques support accurate diagnosis and treatment planning across medical specialties. The department prioritizes patient safety, precision, and timely reporting."
+    "title": "Medical Nursing Home",
+    "description": "Medical nursing homes including residential treatment centers and geriatric care facilities are health care institutions with accommodation facilities.",
+    "icon": "MdElderly"
   }
 ]

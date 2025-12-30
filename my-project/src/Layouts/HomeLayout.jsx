@@ -2,6 +2,7 @@
 import { Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer';
 import Navber from '../Components/Navber';
+import WhoWeAre from '../Pages/WhoWeAre/WhoWeAre';
 
 const HomeLayout = () => {
     return (
@@ -9,9 +10,13 @@ const HomeLayout = () => {
             {/* Navber section  */}
                 <Navber></Navber>
             
-                <main  className='bg-[#f5f9fc]'>
+                <aside  className='bg-[#f5f9fc]'>
                     <Outlet></Outlet>
-                </main>
+                </aside>
+
+                <aside>
+                    <WhoWeAre></WhoWeAre>
+                </aside>
 
 
             {/* footer */}

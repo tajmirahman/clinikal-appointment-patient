@@ -6,7 +6,7 @@ const LeftSide = ({showData}) => {
             <figure className='w-full h-[350px] object-cover '>
                 <img className='w-full h-[350px] object-contain' src={showData.image_url} alt="" />
             </figure>
-            <p className='text-justify'>{showData.details}</p>
+            <p className='text-justify text-sm'>{showData.details}</p>
         </div>
     );
 };
