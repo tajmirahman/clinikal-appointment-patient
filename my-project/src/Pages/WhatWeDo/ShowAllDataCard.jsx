@@ -38,7 +38,7 @@ const ShowAllDataCard = ({ showAllData }) => {
                 </p>
 
                 <div className="mt-3">
-                    <Link to={`/service-details/${showAllData.id}`} className="text-sky-500 font-semibold hover:underline">read more</Link>
+                    <Link to={`/service-details/${showAllData.id}`} className="text-[#32a3ac] font-semibold hover:underline">read more</Link>
                 </div>
             </div>
         </div>

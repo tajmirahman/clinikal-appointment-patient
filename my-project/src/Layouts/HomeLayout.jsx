@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer';
 import Navber from '../Components/Navber';
 import WhoWeAre from '../Pages/WhoWeAre/WhoWeAre';
+import WhyChooseUs from '../Pages/WhyChooseUs/WhyChooseUs';
 
 const HomeLayout = () => {
     return (
@@ -10,12 +11,16 @@ const HomeLayout = () => {
             {/* Navber section  */}
                 <Navber></Navber>
             
-                <aside  className='bg-[#f5f9fc]'>
+                <aside>
                     <Outlet></Outlet>
                 </aside>
 
-                <aside className=''>
+                <aside >
                     <WhoWeAre></WhoWeAre>
+                </aside>
+
+                <aside>
+                    <WhyChooseUs></WhyChooseUs>
                 </aside>
 
 

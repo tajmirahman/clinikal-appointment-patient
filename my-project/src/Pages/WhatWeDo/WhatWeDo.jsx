@@ -21,7 +21,7 @@ const WhatWeDo = () => {
             <div className='flex gap-5 mt-10'>
                 <div className='flex-1'>
                     <figure className='w-full h-[500px]  '>
-                        <img className='w-full h-[460px]  border-2 border-blue-500' src={whatWeDo} alt="" />
+                        <img className='w-full h-[460px]  border-2 border-[#32a3ac]' src={whatWeDo} alt="" />
                     </figure>
                 </div>
                 <div className='flex-1 space-y-4 text-sm text-justify'>
@@ -36,7 +36,7 @@ const WhatWeDo = () => {
                         {
                             data.length > 6
                             &&
-                            <Link to={'/show-more'} onClick={() => { setShowAll }} className="btn btn-primary">show more</Link>
+                            <Link to={'/show-more'} onClick={() => { setShowAll }} className="btn bg-[#32a3ac]">show more</Link>
                         }
                     </div>
                 </div>

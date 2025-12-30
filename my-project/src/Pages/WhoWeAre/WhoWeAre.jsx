@@ -42,7 +42,7 @@ const WhoWeAre = () => {
 
                     <figure className="w-full h-[350px]">
                         <img
-                            className="w-full h-full border-2 border-blue-500 object-cover"
+                            className="w-full h-full border-2 border-[#32a3ac] object-cover"
                             src={WhatWeAre}
                             alt=""
                         />
