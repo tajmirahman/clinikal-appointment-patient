@@ -13,11 +13,13 @@ const WhatWeDo = () => {
     const visibaleData = showAll ? data : data.slice(0, 6);
 
     return (
-        <div className='w-9/12 mx-auto min-h-screen '>
-            <h2 className='text-center my-10 text-3xl'>WHAT WE DO</h2>
+        <div className='w-9/12 mx-auto py-10'>
+            <h2 className="text-center text-3xl">WHAT WE DO</h2>
+            <hr className="w-2/6 mx-auto border-t-2 border-black mt-2" />
 
-            <div className='flex gap-5'>
-                <div className='flex-1  '>
+
+            <div className='flex gap-5 mt-10'>
+                <div className='flex-1'>
                     <figure className='w-full h-[500px]  '>
                         <img className='w-full h-[460px]  border-2 border-blue-500' src={whatWeDo} alt="" />
                     </figure>
