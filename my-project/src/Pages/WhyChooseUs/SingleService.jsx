@@ -1,13 +1,21 @@
 import React from 'react';
 
-const SingleService = ({service}) => {
+const SingleService = ({ service }) => {
     console.log(service)
     return (
-        <div className='flex justify-center items-center gap-3'>
-            <div className="card">
-                <img className='h-20 w-20 mx-auto' src={service.icon} alt="" />
-                <h2 className='text-3xl font-bold'>{service.title}</h2>
-                <p>{service.description}</p>
+        <div className=''>
+            <div className="card space-y-5">
+                <figure className=' w-20 h-20 mx-auto *:border'>
+                    <img className='w-20 h-20 p-2 hover:bg-[#32a3ac]' src={service.icon} alt="" />
+                </figure>
+                <div className='space-y-5'>
+                    <h2 className='text-center font-semibold'>{service.title}</h2>
+                    {/* <p className="text-left leading-[16px] text-sm tracking-normal">
+                        {service.description.replace(/\s+/g, " ").trim()}
+                    </p> */}
+                    <p className='text-left text-sm'>{service.description}</p>
+
+                </div>
             </div>
         </div>
     );
