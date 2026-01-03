@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SingleService = ({ service }) => {
-    console.log(service)
+    // console.log(service)
     return (
         <div className=''>
             <div className="card space-y-5">
