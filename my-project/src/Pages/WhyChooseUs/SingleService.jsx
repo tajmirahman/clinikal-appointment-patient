@@ -10,9 +10,6 @@ const SingleService = ({ service }) => {
                 </figure>
                 <div className='space-y-5'>
                     <h2 className='text-center font-semibold'>{service.title}</h2>
-                    {/* <p className="text-left leading-[16px] text-sm tracking-normal">
-                        {service.description.replace(/\s+/g, " ").trim()}
-                    </p> */}
                     <p className='text-left text-sm'>{service.description}</p>
 
                 </div>
