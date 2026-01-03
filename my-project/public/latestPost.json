@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "date": "26 Dec 2019",
+    "image": "/images/blog-1.jpg",
+    "title": "White Discharge – What, How and Home Remedies",
+    "author": "Michael Ross",
+    "readMoreLink": "/blog/white-discharge"
+  },
+  {
+    "id": 2,
+    "date": "10 Jan 2020",
+    "image": "/images/blog-2.jpg",
+    "title": "10 Tips for a Healthy Lifestyle",
+    "author": "Dr. Sarah Johnson",
+    "readMoreLink": "/blog/healthy-lifestyle"
+  },
+  {
+    "id": 3,
+    "date": "05 Feb 2020",
+    "image": "/images/blog-3.jpg",
+    "title": "Common Skin Problems and Solutions",
+    "author": "Andrew Miller",
+    "readMoreLink": "/blog/skin-problems"
+  },
+  {
+    "id": 4,
+    "date": "18 Mar 2020",
+    "image": "/images/blog-4.jpg",
+    "title": "How to Boost Your Immunity Naturally",
+    "author": "Emma Watson",
+    "readMoreLink": "/blog/boost-immunity"
+  },
+  {
+    "id": 5,
+    "date": "02 Apr 2020",
+    "image": "/images/blog-5.jpg",
+    "title": "Daily Exercise Routine for Beginners",
+    "author": "John Carter",
+    "readMoreLink": "/blog/daily-exercise"
+  }
+]

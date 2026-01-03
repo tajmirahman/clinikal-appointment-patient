@@ -36,8 +36,12 @@ const OurTeams = () => {
     }, []);
 
     return (
-        <div className="w-full min-h-screen bg-gradient-to-r from-[#2fa4aa] to-[#5fd1d8] flex justify-center items-center">
-            <div className="flex gap-5 items-center">
+        <div className="w-full min-h-screen bg-gradient-to-r from-[#2fa4aa] to-[#5fd1d8] ">
+            <div className="mb-10 space-y-5 pt-3">
+                <h2 className='text-3xl text-center'>Our Team</h2>
+                <hr className="w-[200px] mx-auto border-t-2 border-black" />
+            </div>
+            <div className="flex justify-center items-center gap-5">
                 {showCardDoctor.map((doc, index) => (
                     <SingleDoctor
                         key={doc.id}
