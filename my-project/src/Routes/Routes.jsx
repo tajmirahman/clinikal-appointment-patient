@@ -3,6 +3,7 @@ import HomeLayout from "../Layouts/HomeLayout";
 import WhatWeDo from "../Pages/WhatWeDo/WhatWeDo";
 import ShowAllService from "../Pages/WhatWeDo/ShowAllService";
 import ServiceDetails from "../Pages/WhatWeDo/ServiceDetails";
+import BlogPost from "../Pages/Blog/BlogPost";
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
         path: '/service-details/:id',
         element: <ServiceDetails></ServiceDetails>,
         loader: () => fetch("/service.json")
+    },
+    {
+        path:'/blog-post',
+        element:<BlogPost></BlogPost>,
+        loader:()=> fetch ('/latestPost.json')
     },
     {
         path: '/auth',
