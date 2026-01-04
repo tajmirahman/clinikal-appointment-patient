@@ -5,7 +5,7 @@ import LatestPostCard from "./LatestPostCard";
 const LatestPost = () => {
 
     const [latestPost, setLatestPost] = useState([]);
-    const postSlice=latestPost.slice(0,3);
+    const postSlice=latestPost.slice(1,4);
 
     useEffect(() => {
         fetch('/latestPost.json')

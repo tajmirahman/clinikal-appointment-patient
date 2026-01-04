@@ -1,3 +1,4 @@
+import { FaEye } from 'react-icons/fa';
 import proPic from '../../assets/image/download.png'
 
 const LatestPostCard = ({ newPost }) => {
@@ -10,18 +11,19 @@ const LatestPostCard = ({ newPost }) => {
 
             <div className=''>
                 <h2 className='mt-3'>{newPost.title.length > 33 ?newPost.title.slice(0,25)+ '...' :newPost.title}</h2>
-                <hr className='w-[200px]  mx-auto border-t-2' />
+                <hr className='w-[300px]  mx-auto border-t-2 my-2' />
             </div>
 
-            <div className='flex justify-center items-center gap-5 '>
-                <div className='flex justify-center items-center '>
-                    <figure className='w-16 h-12 object-cover'>
+            <div className='flex gap-3'>
+                <div className='flex justify-center items-center border-r-2'>
+                    <figure className='w-12 h-12 object-cover'>
                         <img className='w-12 h-12' src={proPic} alt="" />
                     </figure>
-                    <p>{newPost.author}</p>
+                    <p className='text-sm mr-2'>{newPost.author}</p>
                 </div>
-                <div className=''>
-                    <button>read more</button>
+                <div className='flex justify-center items-center gap-2'>
+                    <FaEye />
+                    <button className='text-sm'>read more</button>
                 </div>
             </div>
 
