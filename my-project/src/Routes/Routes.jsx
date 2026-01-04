@@ -4,6 +4,7 @@ import WhatWeDo from "../Pages/WhatWeDo/WhatWeDo";
 import ShowAllService from "../Pages/WhatWeDo/ShowAllService";
 import ServiceDetails from "../Pages/WhatWeDo/ServiceDetails";
 import BlogPost from "../Pages/Blog/BlogPost";
+import BlogPostDetails from "../Pages/Blog/BlogPostDetails";
 
 
 const router = createBrowserRouter([
@@ -30,10 +31,16 @@ const router = createBrowserRouter([
         loader: () => fetch("/service.json")
     },
     {
-        path:'/blog-post',
-        element:<BlogPost></BlogPost>,
-        loader:()=> fetch ('/latestPost.json')
+        path: '/blog-post',
+        element: <BlogPost></BlogPost>,
+        loader: () => fetch('/latestPost.json')
     },
+    {
+        path: '/blog-post-details/:id',
+        element: <BlogPostDetails></BlogPostDetails>,
+        loader: () => fetch('/latestPost.json')
+    },
+
     {
         path: '/auth',
         element: <h1>This is auth layout</h1>
