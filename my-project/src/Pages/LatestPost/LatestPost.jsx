@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import LatestPostCard from "./LatestPostCard";
 
 
 const LatestPost = () => {
@@ -13,7 +14,12 @@ const LatestPost = () => {
     
     return (
         <div>
-            THis is latest post
+           {
+            latestPost.map(newPost=><LatestPostCard 
+                key={newPost.id} 
+                newPost={newPost}
+                ></LatestPostCard>)
+           }
         </div>
     );
 };
