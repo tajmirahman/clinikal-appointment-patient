@@ -20,18 +20,20 @@ const BlogPostDetails = () => {
 
 
     return (
-        <>
+        <div className="">
             <div className='bg-[#32c1ce]'>
                 <Header></Header>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-12 my-5">
+            <div className="grid grid-cols-1 md:grid-cols-12 w-9/12 mx-auto my-5">
                 <aside className="col-span-9">
                     <BlogDetailsCard newBlog={newBlog}></BlogDetailsCard>
                 </aside>
-                <aside className="col-span-3">
+
+                <aside className="col-span-3 */:border">
                     <BlogPostRight blogPost={blogPost}></BlogPostRight>
                 </aside>
-            </div></>
+            </div>
+        </div>
 
     );
 };
