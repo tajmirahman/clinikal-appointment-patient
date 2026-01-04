@@ -5,20 +5,21 @@ import LatestPostCard from "./LatestPostCard";
 const LatestPost = () => {
 
     const [latestPost, setLatestPost] = useState([]);
+    const postSlice=latestPost.slice(0,3);
 
     useEffect(() => {
         fetch('/latestPost.json')
             .then(res => res.json())
             .then(data => setLatestPost(data))
-    }, [])
+    }, []);
 
     return (
-        <div>
+        <div className="w-9/12 mx-auto">
             <h2 className='text-3xl text-center'>Latest Post</h2>
             <hr className="w-[200px] mx-auto border-t-2 border-black" />
-            <div>
+            <div className="flex gap-3 my-5">
                 {
-                    latestPost?.map(newPost => <LatestPostCard
+                    postSlice?.map(newPost => <LatestPostCard
                         key={newPost.id}
                         newPost={newPost}
                     ></LatestPostCard>)
