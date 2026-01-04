@@ -29,7 +29,7 @@ const BlogPostDetails = () => {
                     <BlogDetailsCard newBlog={newBlog}></BlogDetailsCard>
                 </aside>
 
-                <aside className="col-span-3 */:border">
+                <aside className="col-span-3">
                     <BlogPostRight blogPost={blogPost}></BlogPostRight>
                 </aside>
             </div>

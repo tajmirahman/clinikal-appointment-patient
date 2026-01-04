@@ -2,7 +2,7 @@ import proPic from '../../assets/image/download.png'
 
 const BlogDetailsCard = ({ newBlog }) => {
     return (
-        <div className="w-9/12 mx-auto space-y-4">
+        <div className="w-9/12 mx-auto space-y-4 shadow-lg p-2">
 
             <figure className='*/:border-4 border-gray-300'>
                 <img className='w-96 mx-auto' src={newBlog.image} alt="" />

@@ -5,7 +5,7 @@ const RecentPost = ({blogPost}) => {
 
 
     return (
-        <div className='p-2'>
+        <div className='p-2 shadow-lg'>
             <h2 className='text-center text-xl'>Recent Post</h2>
             <hr className='w-[60px] mx-auto bg-sky-300 border-t-2 my-1' />
             <hr className='w-[50px] mx-auto bg-sky-300 border-t-2' />
