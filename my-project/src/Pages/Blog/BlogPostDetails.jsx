@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import BlogDetailsCard from "./BlogDetailsCard";
 import { useEffect, useState } from "react";
 import BlogPostRight from "./BlogPostRight";
+import Header from "../../Components/Header";
 
 
 const BlogPostDetails = () => {
@@ -19,14 +20,19 @@ const BlogPostDetails = () => {
 
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-12">
-            <aside className="col-span-9">
-                <BlogDetailsCard newBlog={newBlog}></BlogDetailsCard>
-            </aside>
-            <aside className="col-span-3">
-                <BlogPostRight></BlogPostRight>
-            </aside>
-        </div>
+        <>
+            <div className='bg-[#32c1ce]'>
+                <Header></Header>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-12 my-5">
+                <aside className="col-span-9">
+                    <BlogDetailsCard newBlog={newBlog}></BlogDetailsCard>
+                </aside>
+                <aside className="col-span-3">
+                    <BlogPostRight></BlogPostRight>
+                </aside>
+            </div></>
+
     );
 };
 
