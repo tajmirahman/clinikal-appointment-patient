@@ -13,12 +13,9 @@ const Navbar = () => {
             }}
         >
             {/* overlay */}
-            <div className="">
-
+            <div>
                 <Header></Header>
-
             </div>
-
             
         </div>
     );

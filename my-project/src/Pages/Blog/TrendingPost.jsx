@@ -59,19 +59,6 @@ const TrendingPost = ({ blogPost }) => {
                         }
                     </div>
                 </div>
-                {/* <div className="flex justify-center gap-2 mt-3">
-                    {sliceBlog.map((_, index) => (
-                        <button
-                            key={index}
-                            onClick={() => setCurrent(index)}
-                            className={`w-3 h-3 rounded-full transition-all
-              ${current === index
-                                    ? "bg-[#29A3AA] scale-125"
-                                    : "bg-gray-300"
-                                }`}
-                        ></button>
-                    ))}
-                </div> */}
             </div>
 
         </div>

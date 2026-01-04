@@ -18,7 +18,7 @@ const WhatWeDo = () => {
             <hr className="w-2/6 mx-auto border-t-2 border-black mt-2" />
 
 
-            <div className='flex gap-5 mt-10'>
+            <div className='md:flex gap-5 mt-10'>
                 <div className='flex-1'>
                     <figure className='w-full h-[500px]  '>
                         <img className='w-full h-[460px]  border-2 border-[#32a3ac]' src={whatWeDo} alt="" />

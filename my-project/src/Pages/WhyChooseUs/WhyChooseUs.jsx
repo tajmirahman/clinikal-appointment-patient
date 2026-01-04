@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
         <div className="w-9/12 mx-auto mt-10">
             <h2 className='text-3xl text-center'>Why Choose Us</h2>
             <hr className="w-2/6 mx-auto border-t-2 border-black mt-2" />
-            <div className="grid grid-cols-4 gap-5 my-5">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-5 my-5">
                 {
                     ourService.map(service=><SingleService key={service.id} service={service}></SingleService>)
                 }

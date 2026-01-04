@@ -14,7 +14,7 @@ const RecentPost = ({blogPost}) => {
             <div className='w-full mt-2 space-y-3'>
             {
                 sliceBlog?.map(blog=>(
-                    <div className='flex justify-center items-center gap-4'>
+                    <div className='flex md:justify-center items-center gap-4'>
                         <img className='w-16 h-16 object-cover' src={blog.image} alt="" />
                         <div className='text-sm '>
                             <Link to={`/blog-post-details/${blog.id}`} className='hover:text-[#29A3AA]'>{blog.title}</Link>

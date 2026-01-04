@@ -24,7 +24,7 @@ const BlogPostDetails = () => {
             <div className='bg-[#32c1ce]'>
                 <Header></Header>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-12 w-9/12 mx-auto my-5">
+            <div className="grid grid-cols-1 md:grid-cols-12 md:w-9/12 mx-auto my-5">
                 <aside className="col-span-9">
                     <BlogDetailsCard newBlog={newBlog}></BlogDetailsCard>
                 </aside>

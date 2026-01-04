@@ -9,7 +9,7 @@ const BlogPostRight = ({blogPost}) => {
     return (
 
         <div className='space-y-5'>
-            <section>
+            <section className='hidden md:block'>
                 <RecentPost blogPost={blogPost}></RecentPost>
             </section>
             <section>

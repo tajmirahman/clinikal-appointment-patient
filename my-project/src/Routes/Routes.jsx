@@ -16,7 +16,6 @@ const router = createBrowserRouter([
                 path: '/',
                 element: <WhatWeDo></WhatWeDo>,
                 loader: () => fetch("/service.json")
-
             }
         ]
     },
