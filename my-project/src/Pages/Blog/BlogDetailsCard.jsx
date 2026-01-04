@@ -5,7 +5,7 @@ const BlogDetailsCard = ({ newBlog }) => {
         <div className="w-9/12 mx-auto space-y-4 shadow-lg p-2">
 
             <figure className='*/:border-4 border-gray-300'>
-                <img className='w-96 mx-auto' src={newBlog.image} alt="" />
+                <img className='w-96 mx-auto p-2' src={newBlog.image} alt="" />
             </figure>
             <h2 className='text-center text-3xl'>{newBlog.title}</h2>
             <div className='flex justify-center items-center gap-5'>

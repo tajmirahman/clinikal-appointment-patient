@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const RecentPost = ({blogPost}) => {
     const sliceBlog=blogPost.slice(3,6);
@@ -16,7 +17,7 @@ const RecentPost = ({blogPost}) => {
                     <div className='flex justify-center items-center gap-4'>
                         <img className='w-16 h-16 object-cover' src={blog.image} alt="" />
                         <div className='text-sm '>
-                            <h2 className='hover:text-[#29A3AA]'>{blog.title}</h2>
+                            <Link to={`/blog-post-details/${blog.id}`} className='hover:text-[#29A3AA]'>{blog.title}</Link>
                             <p className='hover:text-[#29A3AA]'>{blog.date}</p>
                         </div>
                     </div>
