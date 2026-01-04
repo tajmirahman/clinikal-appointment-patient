@@ -1,10 +1,10 @@
 
 
-const BlogDetailsCard = ({singleBlog}) => {
+const BlogDetailsCard = ({newBlog}) => {
     return (
         <div className="w-9/12 mx-auto">
           
-                <img src={singleBlog.image} alt="" />
+                <img src={newBlog.image} alt="" />
            
         </div>
     );
