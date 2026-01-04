@@ -18,7 +18,7 @@ const LatestPost = () => {
             <hr className="w-[200px] mx-auto border-t-2 border-black" />
             <div>
                 {
-                    latestPost.map(newPost => <LatestPostCard
+                    latestPost?.map(newPost => <LatestPostCard
                         key={newPost.id}
                         newPost={newPost}
                     ></LatestPostCard>)
