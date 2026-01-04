@@ -14,7 +14,7 @@ const LatestPost = () => {
     }, []);
 
     return (
-        <div className="w-9/12 mx-auto">
+        <div className="w-9/12 mx-auto mt-5">
             <h2 className='text-3xl text-center'>Latest Post</h2>
             <hr className="w-[200px] mx-auto border-t-2 border-black" />
             <div className="flex gap-3 my-5">

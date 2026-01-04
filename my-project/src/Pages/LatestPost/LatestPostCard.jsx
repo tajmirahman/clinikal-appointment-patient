@@ -23,8 +23,8 @@ const LatestPostCard = ({ newPost }) => {
                     <p className='text-sm mr-2'>{newPost.author}</p>
                 </div>
                 <div className='flex justify-center items-center gap-2'>
-                    <FaEye />
-                    <Link to={'/blog-post'} className='text-sm'>read more</Link>
+                    <Link to={`/blog-post-details/${newPost.id}`}><FaEye /></Link>
+                    <Link to={`/blog-post-details/${newPost.id}`} className='text-sm'>read more</Link>
                 </div>
             </div>
 

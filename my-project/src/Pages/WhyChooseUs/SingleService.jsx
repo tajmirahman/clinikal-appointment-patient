@@ -3,7 +3,7 @@ import React from 'react';
 const SingleService = ({ service }) => {
     // console.log(service)
     return (
-        <div className=''>
+        <div>
             <div className="card space-y-5">
                 <figure className=' w-20 h-20 mx-auto *:border'>
                     <img className='w-20 h-20 p-2 hover:bg-[#32a3ac]' src={service.icon} alt="" />

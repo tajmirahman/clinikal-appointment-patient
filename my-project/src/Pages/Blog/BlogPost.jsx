@@ -10,7 +10,7 @@ const BlogPost = () => {
 
 
     return (
-        <div className=''>
+        <div>
             <section className='bg-[#32c1ce]'>
 
                 <Header></Header>

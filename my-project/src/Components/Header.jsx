@@ -15,14 +15,7 @@ const Header = () => {
                     <Link>About</Link>
                     <Link>Doctor</Link>
                     <Link>My Accont</Link>
-                    <li>
-                        <a>Parent</a>
-                        <ul className="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
-                        </ul>
-                    </li>
-                    <li><a>Item 3</a></li>
+                    <Link to={'/blog-post'}>Blog</Link>
                 </ul>
             </div>
             <div className='text-white navbar-center hidden lg:flex'>
@@ -31,17 +24,7 @@ const Header = () => {
                     <Link>About</Link>
                     <Link>Doctor</Link>
                     <Link>My Accont</Link>
-                    <Link>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul className="p-2 bg-base-100 w-40 z-1">
-                                <li><a>Home</a></li>
-                                <li><a>About</a></li>
-                                <li><a>Doctor</a></li>
-                                <li><a>My Accont</a></li>
-                            </ul>
-                        </details>
-                    </Link>
+                    <Link to={'/blog-post'}>Blog</Link>
                    
                 </ul>
             </div>
