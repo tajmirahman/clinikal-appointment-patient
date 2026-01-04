@@ -2,14 +2,14 @@
   {
     "id": 1,
     "date": "26 Dec 2019",
-    "image": "/images/blog-1.jpg",
+    "image": "https://i.ibb.co.com/Q7LQ7gf6/media-21578075e049caa22463.jpg",
     "title": "White Discharge – What, How and Home Remedies",
     "author": "White discharge is also called Luquaria or Vaginal discharge which is commonly known issues for women. Gynecologist doctors says that women usually have slight vaginal discharge in women. In the medical term it is also known as Luquaria. This keeps the vagina clean and helps prevent infection. Most of the time this is perfectly normal. There will be more discharge if you are ovulating, breastfeeding and sexually aroused. Any change in the vagina’s balance of normal bacteria can affect the smell, color, or discharge texture. These are a few of the things that can upset that balance. Any change in the vagina’s balance of normal bacteria can affect the smell, color, or discharge texture. These are a few of the things that can upset that balance."
   },
   {
     "id": 2,
     "date": "10 Jan 2020",
-    "image": "/images/blog-2.jpg",
+    "image": "https://i.ibb.co.com/B2G2C9RJ/media-20007893955e049ca8e81b3.jpg",
     "title": "10 Tips for a Healthy Lifestyle",
     "author": "Dr. Sarah Johnson",
     "readMoreLink": "/blog/healthy-lifestyle",
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "date": "05 Feb 2020",
-    "image": "/images/blog-3.jpg",
+    "image": "https://i.ibb.co.com/7JDM6T6P/media-7492952475e049ca8e6c1f.jpg",
     "title": "Common Skin Problems and Solutions",
     "author": "Andrew Miller",
     "readMoreLink": "/blog/skin-problems",
@@ -27,7 +27,7 @@
   {
     "id": 4,
     "date": "18 Mar 2020",
-    "image": "/images/blog-4.jpg",
+    "image": "https://i.ibb.co.com/MkGcqshL/media-3737803485e049caa6953e.jpg",
     "title": "How to Boost Your Immunity Naturally",
     "author": "Emma Watson",
     "readMoreLink": "/blog/boost-immunity",
@@ -36,7 +36,7 @@
   {
     "id": 5,
     "date": "02 Apr 2020",
-    "image": "/images/blog-5.jpg",
+    "image": "https://i.ibb.co.com/bgC3m1n3/media-6801400485e049ca8bb2e2.jpg",
     "title": "Daily Exercise Routine for Beginners",
     "author": "John Carter",
     "readMoreLink": "/blog/daily-exercise",
@@ -44,7 +44,7 @@
   },
   {
     "id": 6,
-    "date": "02 feb 2022",
+    "date": "https://i.ibb.co.com/pB7GpgrH/media-18598544785e049ca8b65de.jpg",
     "image": "/images/blog-5.jpg",
     "title": "Bladder Weakness – What, Why and Natural Remedie",
     "author": "Asik Karim",
@@ -54,7 +54,7 @@
   {
     "id": 7,
     "date": "28 Apr 2023",
-    "image": "/images/blog-5.jpg",
+    "image": "https://i.ibb.co.com/fYNh8HGv/media-17758406055e049ca8dfbaa.jpg",
     "title": "Breast Cancer – 7 Tips to Avoid This",
     "author": "Asik Karim",
     "readMoreLink": "/blog/daily-exercise",
@@ -63,7 +63,7 @@
   {
     "id": 8,
     "date": "14 jul 2025",
-    "image": "/images/blog-5.jpg",
+    "image": "https://i.ibb.co.com/60BjgzwD/media-727976285e049ca8ca2af.jpg",
     "title": "A Broken Heart Can Hurt More Than You Think",
     "author": "Nabila Karim",
     "readMoreLink": "/blog/daily-exercise",
@@ -72,7 +72,7 @@
   {
     "id": 9,
     "date": "23 Nov 2025",
-    "image": "/images/blog-5.jpg",
+    "image": "https://i.ibb.co.com/WvmYxTr7/media-10890832985e049ca8cbb4c.jpg",
     "title": "What steps can I take as a parent to ensure my child stays healthy during the school year?",
     "author": "Iftekhar Mahmud",
     "readMoreLink": "/blog/daily-exercise",
@@ -81,7 +81,7 @@
   {
     "id": 10,
     "date": "22 Jan 2024",
-    "image": "/images/blog-5.jpg",
+    "image": "https://i.ibb.co.com/6c1gk5f4/media-9280659855e049ca8d12d0.jpg",
     "title": "Should I bring my child in for a routine physical prior to school starting?",
     "author": "Hredoy Khan",
     "readMoreLink": "/blog/daily-exercise",
